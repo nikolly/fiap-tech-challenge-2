@@ -57,9 +57,9 @@ aws_session_token= YOUR_SECRET_TOKEN
 
 ## Usage
 
-### Run the main src/script
+### Run the main script
 
-- python main.py
+- python src/main.py
 
 ### The script will
 
