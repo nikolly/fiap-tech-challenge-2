@@ -32,6 +32,6 @@ if ibov_data:
     print("Parquet file created")
     
     # Upload the parquet file to AWS S3
-    bucket_name = 'fiap-mlet'
+    bucket_name = 'bovespa-etl'
     upload_to_s3(file_path, bucket_name, 'ibov.parquet')
     print("File uploaded to S3")
